@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    background-color: black;
+    justify-content:space-between;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+a:link{
+    color: blanchedalmond;
+}
+a:visited{
+    color: blanchedalmond;
+}
+.header{
+    background-image: url("images/background.png");
+    color: rgb(11, 119, 83);
+}
+h1{
+    padding-left: 450px;
+}
+h3{
+    padding-top:30px;
+}
+.animals{
+    width:310px;
+    font-family: fantasy;
+    position: relative;
+    color: rgb(149, 10, 10);
+}
+.item,img{
+    display: flex;
+    flex-wrap: wrap;
+    border:outset;
+    justify-content: space-evenly;
+}
